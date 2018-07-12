@@ -164,7 +164,7 @@ class GroupCard extends React.Component {
                             : theme.typography.fontWeightMedium
                       }}
                     >
-                      {`${user.firstName} ${user.lastName}`}
+                      {`${user.id}`}
                     </option>
                   ))}
                 </Select>
